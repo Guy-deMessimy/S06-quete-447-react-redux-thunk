@@ -1,6 +1,5 @@
 import React, { Component, Fragment } from 'react';
 import './App.css';
-
 import { ArticleList, Info } from './components';
 
 class App extends Component {

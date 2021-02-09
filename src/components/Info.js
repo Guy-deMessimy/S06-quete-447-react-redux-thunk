@@ -1,6 +1,7 @@
 import React, { Fragment } from 'react';
 import PropTypes from 'prop-types';
-import { NumberOfSelectedArticles, Weight } from '.';
+import NumberOfSelectedArticles from './NumberOfSelectedArticles';
+import Weight from './Weight';
 
 const getSelectedArticlesTotalWeight = articles =>
   articles
